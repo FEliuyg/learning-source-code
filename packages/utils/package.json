@@ -1,0 +1,17 @@
+{
+  "name": "@xiaoyao0117/utils",
+  "version": "1.0.0",
+  "description": "",
+  "author": "xiaoyao",
+  "license": "ISC",
+  "keywords": [],
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "vitest",
+    "test:once": "vitest run",
+    "coverage": "vitest run --coverage",
+    "build": "unbuild"
+  }
+}
